@@ -14,7 +14,7 @@ env = {
 
 # create Model Class
 infinity_model = HuggingFaceModel(
-	image_uri="379486364332.dkr.ecr.us-east-1.amazonaws.com/infinity-trial:g4dn-embedding-sentence-transformers--msmarco-distilbert-base-v2",
+	image_uri="379486364332.dkr.ecr.us-east-1.amazonaws.com/infinity-trial:{TAG}",
 	env=env,
 	role=role, 
 )
