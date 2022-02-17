@@ -1,5 +1,6 @@
 from sagemaker.huggingface import HuggingFaceModel
 import sagemaker
+import boto3
 
 try:
     role = sagemaker.get_execution_role()
